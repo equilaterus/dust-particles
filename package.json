@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A JS script to generate dust particles",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "grunt"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,12 @@
   "homepage": "https://github.com/equilaterus/dust-particles#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "grunt": "^1.0.4",
+    "grunt-babel": "^8.0.0",
+    "load-grunt-tasks": "^5.1.0"
   }
 }
