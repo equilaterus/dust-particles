@@ -1,0 +1,27 @@
+{
+  "name": "dust-particles",
+  "version": "0.0.1",
+  "description": "A JS script to generate dust particles",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/equilaterus/dust-particles.git"
+  },
+  "keywords": [
+    "javascript",
+    "dust",
+    "particles",
+    "fx"
+  ],
+  "author": "equilaterus team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/equilaterus/dust-particles/issues"
+  },
+  "homepage": "https://github.com/equilaterus/dust-particles#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
