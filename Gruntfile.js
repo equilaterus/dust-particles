@@ -12,8 +12,20 @@ module.exports = function(grunt) {
           'dist/particles.js': 'src/particles.js'
         }
       }
+    },
+
+    uglify: {
+      options: {
+        mangle: false
+      },
+      my_target: {
+        files: {
+          'dist/particles.min.js': ['dist/particles.js']
+        }
+      }
     }
   });
 
-  grunt.registerTask('default', ['babel']);
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.registerTask('default', ['babel', 'uglify']);
 }
