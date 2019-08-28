@@ -1,0 +1,35 @@
+{
+  "name": "dust-particles",
+  "version": "0.0.1",
+  "description": "A JS script to generate dust particles",
+  "scripts": {
+    "build": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/equilaterus/dust-particles.git"
+  },
+  "keywords": [
+    "javascript",
+    "dust",
+    "particles",
+    "fx"
+  ],
+  "author": "equilaterus team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/equilaterus/dust-particles/issues"
+  },
+  "homepage": "https://github.com/equilaterus/dust-particles#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "grunt": "^1.0.4",
+    "grunt-babel": "^8.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "load-grunt-tasks": "^5.1.0"
+  }
+}
