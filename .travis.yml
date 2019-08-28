@@ -7,3 +7,15 @@ cache:
 before_install: npm install -g grunt-cli
 install: npm install
 script: npm run build
+
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: "equilaterus@outlook.com"
+  api_key: $NPM_TOKEN
+  on:
+    branch: release
+
+env:
+  global:
+    secure: MGEZiPv6DjjNhgNPjPvP9et7cXn5mTRVOc1k0iHPKNqZ8mHwXZZZhS++b5KBb4hdODesHm3QIxS2sBZCt4WKwvt135usUL+osUP6hHfXLIRty9Rtdu1b/X6n+KIf0dmGoB0kDiih6D9IWxdaiwnXN86EGUxaHwKohDNx28H6fBMOEq5UTbWKuqbPi8cbmNZgf904VsJq4yc1lDu/6AJKkH0a6VAkcK5M2Z84KS4pDUNz3/3mP37Gll6cqbMUdUddd5fKgWqitl6lfuYUmT2FF1xoJsit2jUsSzhhNK7VMnVa+0VkApOjfj/N8baG3D2WX1iMR92vivFowz6GhbRUb2N3IUdVUeXXEZs8i9jRWEOg09u+2oVVAYOWZT6Ow1S/jnfBBh/lIPKrnN2wJJ04RbAaNS0kwhJz+98Ba/AOOTes9/09KSwh2gQNVC67xnQzeZycpUzhD0MeND2A19BShjP5fo3hCZbr/c4yxy/V4sq/ecrb7sltUnIMCjmiyJrqop2ZqIWcwGVJ1n11ecBUhqYLTpyew4zLm/NKNKFKRSIB9c6W2hKQ5ZhfrcBEtY89ZYjNRvgmel49ui6PB2VAvgCXrL/fvjInBhIUDlOylHTLO059CC9fewCjXilWIEWFffDRiz91d2Aa9Rf+RKAcwoAKyFEe5R7kJMDwUvJuIZo=
